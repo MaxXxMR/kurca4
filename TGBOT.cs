@@ -12,7 +12,7 @@ namespace kurca4
 {
     internal class TGBOT
     {
-        private static readonly TelegramBotClient Bot = new TelegramBotClient("7872756925:AAGdxUWFBpOeoFuIEJP2sIhhWa5LBU-tcoM");
+        private static readonly TelegramBotClient Bot = new TelegramBotClient("tocen");
 
         // Отправка текстового сообщения
         public static async Task SendMessageAsync(string chatId, string message)
