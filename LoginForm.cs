@@ -162,14 +162,14 @@ namespace kurca4
                 mainForm.Show();
 
                 // Отправка сообщения через Telegram бот
-                await TGBOT.SendMessageAsync("5291340172", "Вы успешно вошли в систему");
+                await TGBOT.SendMessageAsync("id", "Вы успешно вошли в систему");
             }
             else
             {
                 MessageBox.Show("Нет такого аккаунта, зарегистрируйтесь");
 
                 // Отправка сообщения через Telegram бот
-                await TGBOT.SendMessageAsync("5291340172", "Нет такого аккаунта, зарегистрируйтесь");
+                await TGBOT.SendMessageAsync("id", "Нет такого аккаунта, зарегистрируйтесь");
             }
         }
 
